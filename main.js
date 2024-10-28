@@ -33,3 +33,8 @@ if (pinArg === "admin" && pinEnv === "666") {
 } else {
     console.log("Access restricted");
 }
+
+// ternary operator
+pinArg === "admin" && pinEnv === "666" ? console.log("Welcome Admin") : console.log("Access restricted");
+// ternary operator dentro log
+console.log(pinArg === "admin" && pinEnv === "666" ? "Welcome Admin" : "Access restricted");
